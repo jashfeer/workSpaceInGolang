@@ -5,6 +5,7 @@ import (
 	"sort"
 )
 
+
 func main() {
 
 	slice := []int{2, 4, 5, 6, 7, 8, 3, 87, 65, 43, 56, 32}
