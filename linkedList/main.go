@@ -26,7 +26,6 @@ func (l linkedList) printListData() {
 		toPrint = toPrint.next
 		l.length--
 	}
-	
 	fmt.Printf("\n")
 }
 
