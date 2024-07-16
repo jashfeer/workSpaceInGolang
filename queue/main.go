@@ -10,6 +10,7 @@ func (q *queue) enQueue(n int) {
 	q.items = append(q.items, n)
 }
 
+
 func (q *queue) deQueue() int {
 	value := q.items[0]
 	q.items = q.items[1:]
