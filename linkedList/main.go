@@ -7,7 +7,6 @@ type node struct {
 	next *node
 }
 
-
 type linkedList struct {
 	head   *node
 	length int
