@@ -19,6 +19,7 @@ func (l *linkedList) prepend(n *node) {
 	l.length++
 }
 
+
 func (l linkedList) printListData() {
 	toPrint := l.head
 	for l.length != 0 {
