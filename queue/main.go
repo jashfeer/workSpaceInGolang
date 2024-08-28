@@ -8,7 +8,6 @@ type queue struct {
 
 func (q *queue) enQueue(n int) {
 	q.items = append(q.items, n)
-	
 }
 
 func (q *queue) deQueue() int {
